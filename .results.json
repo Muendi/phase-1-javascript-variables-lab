@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 6,
-    "passes": 5,
+    "passes": 6,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-07-10T12:37:41.045Z",
-    "end": "2023-07-10T12:37:41.514Z",
-    "duration": 469
+    "failures": 0,
+    "start": "2023-07-10T18:28:00.061Z",
+    "end": "2023-07-10T18:28:00.598Z",
+    "duration": 537
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,34 +41,20 @@
     {
       "title": "is declared as equal to Susan Smith",
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "companyCeo is not defined"
-      }
+      "err": {}
     },
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "is declared as equal to Susan Smith",
-      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "companyCeo is not defined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is set as Scuber",
@@ -80,7 +66,7 @@
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -99,9 +85,16 @@
       "err": {}
     },
     {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
